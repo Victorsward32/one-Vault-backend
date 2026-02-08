@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e1e4e8; border-radius: 12px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .logo { font-size: 24px; font-weight: bold; color: #ef4444; text-decoration: none; }
+        .info-box { background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; margin: 20px 0; }
+        .footer { margin-top: 40px; font-size: 12px; color: #6b7280; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#" class="logo">OneVault Emergency</a>
+        </div>
+        <h2>Emergency Contact Notification</h2>
+        <p>Hello <strong>{{contactName}}</strong>,</p>
+        <p><strong>{{userName}}</strong> has added you as a trusted emergency contact in their OneVault account.</p>
+        
+        <div class="info-box">
+            <p><strong>What does this mean?</strong></p>
+            <p>In case of an emergency, you will have the ability to request access to specific secured information that {{userName}} has shared with you (such as digital legacies or important documents).</p>
+        </div>
+        
+        <p>You don't need to take any action right now. If an emergency occurs, you can use the OneVault app or website to initiate an "Emergency Access Request".</p>
+        
+        <p>Thank you for being a trusted contact.</p>
+        
+        <div class="footer">
+            <p>This is an automated notification. If you have questions about why you were added, please reach out to {{userName}} directly.</p>
+            <p>&copy; 2026 OneVault. Protecting your digital legacy.</p>
+        </div>
+    </div>
+</body>
+</html>

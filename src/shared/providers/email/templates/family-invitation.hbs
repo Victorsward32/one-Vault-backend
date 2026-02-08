@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #e1e4e8;
+        border-radius: 12px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #6366f1;
+        text-decoration: none;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #6366f1;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .footer {
+        margin-top: 40px;
+        font-size: 12px;
+        color: #6b7280;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="#" class="logo">OneVault</a>
+      </div>
+      <h2>Family Invitation</h2>
+      <p>Hello,</p>
+      <p><strong>{{inviterName}}</strong>
+        has invited you to join their family vault on OneVault.</p>
+      <p>By joining, you can securely share passwords, bank details, and
+        important documents with each other.</p>
+
+      <p>To accept this invitation and set up your account, click the button
+        below:</p>
+
+      <a href="{{inviteUrl}}" class="btn">Join Family Vault</a>
+
+      <p>If you already have an account, you can accept the invitation from the
+        "Family" section in your dashboard.</p>
+
+      <div class="footer">
+        <p>If you weren't expecting this invitation, you can safely ignore this
+          email.</p>
+        <p>&copy; 2026 OneVault. Securely protecting what matters most.</p>
+      </div>
+    </div>
+  </body>
+</html>
