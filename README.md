@@ -16,7 +16,7 @@ The backend system for OneVault application.
 npm install
 ```
 
-### Running the application
+### Running the applicationtt
 
 ```bash
 # development
