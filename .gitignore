@@ -37,3 +37,8 @@ pnpm-debug.log*
 # Temporary files
 .tmp/
 .temp/
+
+# Development/Documentation (not essential for deployment)
+/agent-guide
+/postman
+.agent/
