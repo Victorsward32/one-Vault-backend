@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "nest build",
+    "build": "npx nest build",
     "start": "node dist/main",
     "start:prod": "node dist/main",
     "start:dev": "nest start --watch",
     "dev": "nest start --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
@@ -45,17 +45,12 @@
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "uuid": "^13.0.0",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "@nestjs/cli": "^11.0.16",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@nestjs/cli": "^11.0.16",
-    "@types/bcrypt": "^6.0.0",
-    "@types/express": "^5.0.6",
-    "@types/multer": "^2.0.0",
-    "@types/node": "^25.2.0",
-    "@types/passport-jwt": "^4.0.1",
     "@types/uuid": "^10.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "ts-node": "^10.9.2"
   }
 }
